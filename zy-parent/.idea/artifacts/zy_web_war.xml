@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="zy-web:war">
+    <output-path>$PROJECT_DIR$/zy-web/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>zy-web</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="samc.war">
+      <element id="artifact" artifact-name="zy-web:war exploded" />
+    </root>
+  </artifact>
+</component>

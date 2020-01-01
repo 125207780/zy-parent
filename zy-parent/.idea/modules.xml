@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/zy-common/zy-common.iml" filepath="$PROJECT_DIR$/zy-common/zy-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zy-parent.iml" filepath="$PROJECT_DIR$/zy-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zy-web/zy-web.iml" filepath="$PROJECT_DIR$/zy-web/zy-web.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.zy.java.system.sysuser.dao.mapper.SysUserMapper">
+
+    <select id="selectList" resultType="com.zy.java.system.sysuser.dao.entity.SysUser">
+        SELECT
+            *
+        FROM
+            sys_user
+        WHERE
+            1 = 1
+            <if test="sysUser.userName != null and sysUser.userName != ''">
+                AND user_name LIKE CONCAT('%', #{sysUser.userName}, '%')
+            </if>
+            <if test="sysUser.userMobile != null and sysUser.userMobile != ''">
+                AND user_mobile LIKE CONCAT('%', #{sysUser.userMobile}, '%')
+            </if>
+            <if test="sysUser.userMail != null and sysUser.userMail != ''">
+                AND user_mail LIKE CONCAT('%', #{sysUser.userMail}, '%')
+            </if>
+    </select>
+</mapper>

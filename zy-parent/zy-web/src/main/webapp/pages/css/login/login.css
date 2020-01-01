@@ -1,0 +1,51 @@
+@CHARSET "UTF-8";
+
+html, body {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	z-index: 0;
+	background-image: url(../../image/login/login_4.jpg);
+	background-repeat: no-repeat;
+    background-size: 100% 100%; 
+}
+
+#loginForm {
+	text-align: center;
+	position: relative;
+}
+
+#firstLoginDiv {
+	width: 450px;
+	height: 350px;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: 10% auto;
+	background: rgba(190, 190, 190, 0.6); 
+}
+
+#secondLoginDiv {
+	padding-top: 50px;
+	text-align: center;
+}
+
+#loginFont {
+	text-align: center;
+	font-family: "微软雅黑";
+	font-size: 28px !important;
+	font-weight: bold;
+	letter-spacing: 15px;
+	margin-bottom: 20px;
+}
+
+#username, #password, #submitBtn {
+	width: 70%;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+    left: 0px;
+    right: 0px;
+}

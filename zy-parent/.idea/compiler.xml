@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="zy-common" />
+        <module name="zy-web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="zy-common" target="1.8" />
+      <module name="zy-parent" target="1.8" />
+      <module name="zy-web" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="zy-common" options="-extdirs zy-web/src/main/webapp/WEB-INF/lib" />
+      <module name="zy-web" options="-extdirs zy-web/src/main/webapp/WEB-INF/lib" />
+    </option>
+  </component>
+</project>
